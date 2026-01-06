@@ -3,6 +3,7 @@ layout: base.njk
 title: Home
 description: An off-grid text based communications network in Tennessee based on license-free LoRa radios. Text with others in the community without the need for internet or power from the grid.
 ---
+<!-- Force rebuild -->
 
 <section class="hero">
   <img src="/assets/images/tennmesh-primary-dark-even.png" alt="TennMesh" class="hero-logo">
