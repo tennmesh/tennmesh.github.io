@@ -1,0 +1,21 @@
+{
+  "name": "tennmesh-website",
+  "version": "1.0.0",
+  "description": "TennMesh - MeshCore Community Website for East Tennessee",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [
+    "meshcore",
+    "lora",
+    "mesh-network",
+    "tennessee"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

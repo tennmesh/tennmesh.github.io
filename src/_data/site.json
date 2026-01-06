@@ -1,0 +1,11 @@
+{
+  "name": "TennMesh",
+  "description": "Community built mesh network in East Tennessee",
+  "url": "https://tennmesh.com",
+  "discord": "https://discord.gg/XGhftQw9Mt",
+  "preset": "USA/Canada (Recommended)",
+  "frequency": "910.525 MHz",
+  "bandwidth": "62.5 kHz",
+  "spreadFactor": "7",
+  "codingRate": "5"
+}
