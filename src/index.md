@@ -105,6 +105,8 @@ description: An off-grid text based communications network in Tennessee based on
           <dd>USA/Canada (Recommended)</dd>
           <dt>Frequency</dt>
           <dd>910.525 MHz</dd>
+          <dt>Bandwidth</dt>
+          <dd>62.5 kHz</dd>
           <dt>Spread Factor</dt>
           <dd>7</dd>
           <dt>Coding Rate</dt>
