@@ -7,7 +7,7 @@ description: An off-grid text based communications network in Tennessee based on
 
 <section class="hero">
   <img src="/assets/images/tennmesh-primary-dark-even.png" alt="TennMesh" class="hero-logo">
-  <p class="tagline">Built for the community, by the community, TennMesh is an off-grid text messaging network across East Tennessee. Using license-free LoRa radios, members can communicate with others in the mesh with no internet, no cell service, and no grid power required..</p>
+  <p class="tagline">Built for the community, by the community, TennMesh is an off-grid text messaging network across Tennessee. Using license-free LoRa radios, members can communicate with others in the mesh with no internet, no cell service, and no grid power required..</p>
   <p class="sub">Decentralized / Off-Grid / Community-powered</p>
   <div class="cta-buttons">
     <a href="/connect/" class="btn btn-primary btn-large">Get Connected</a>
@@ -41,7 +41,7 @@ description: An off-grid text based communications network in Tennessee based on
     <h2>What We Do</h2>
     <div class="container-narrow">
       <p class="text-center">
-        TennMesh is a community-built mesh network in East Tennessee using MeshCore.
+        TennMesh is a community-built mesh network in Tennessee using MeshCore.
         This community network offers text messaging that works without cell towers, internet, or electricity from the grid. All that's needed is an inexpensive mesh radio to communicate with others in range.
         Our network is designed for emergency preparedness, community building, and resilient communication.
       </p>

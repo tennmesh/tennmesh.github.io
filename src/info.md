@@ -1,14 +1,14 @@
 ---
 layout: base.njk
 title: Info
-description: Learn about TennMesh and MeshCore mesh networking. Understand how it works and why it matters for East Tennessee.
+description: Learn about TennMesh and MeshCore mesh networking. Understand how it works and why it matters for Tennessee.
 ---
 
 <div class="container-narrow">
   <div class="content-section">
     <h1>What is TennMesh?</h1>
     <p>
-      TennMesh is a community-built off-grid mesh network in East Tennessee using <a href="https://meshcore.co.uk" target="_blank" rel="noopener">MeshCore</a> to allow for a free, decentralized text messaging network that works without cell towers, internet, or electricity.
+      TennMesh is a community-built off-grid mesh network in Tennessee using <a href="https://meshcore.co.uk" target="_blank" rel="noopener">MeshCore</a> to allow for a free, decentralized text messaging network that works without cell towers, internet, or electricity.
     </p>
     <p>
       MeshCore uses LoRa (Long Range) radio technology to create a mesh where repeaters relay messages for others,
@@ -119,7 +119,7 @@ description: Learn about TennMesh and MeshCore mesh networking. Understand how i
   <div class="content-section">
     <h2>Coverage Area</h2>
     <p>
-      Our network is growing across East Tennessee. Range depends on terrain, antenna height, and the number of nodes,
+      Our network is growing across Tennessee. Range depends on terrain, antenna height, and the number of nodes,
       but typical line-of-sight range is 3-10 miles between devices. In mountainous areas, elevation helps significantly.
     </p>
     <p>

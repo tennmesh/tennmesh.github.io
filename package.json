@@ -1,7 +1,7 @@
 {
   "name": "tennmesh-website",
   "version": "1.0.0",
-  "description": "TennMesh - MeshCore Community Website for East Tennessee",
+  "description": "TennMesh - MeshCore Community Website for Tennessee",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
