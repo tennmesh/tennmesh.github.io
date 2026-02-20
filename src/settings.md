@@ -8,7 +8,7 @@ description: Recommended MeshCore settings for TennMesh nodes, repeaters, and co
   <div class="content-section">
     <h1>Recommended Settings</h1>
     <p>
-      These are the recommended MeshCore settings for TennMesh to help keep the network stable, efficient, and easy to join. These values are designed to reduce unnecessary airtime, improve reliability, and maintain compatibility across the mesh. Whether you're setting up a new node or configuring a repeater, use the guidance below to ensure your device works seamlessly with the rest of the TennMesh network.
+      These are the recommended MeshCore settings for TennMesh to help keep the network stable, efficient, and easy to join. These values are designed to reduce unnecessary airtime, improve reliability, and maintain compatibility across the mesh. Whether you're setting up a new companion or configuring a repeater, use the guidance below to ensure your device works seamlessly with the rest of the TennMesh network.
     </p>
   </div>
 
