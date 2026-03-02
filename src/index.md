@@ -82,6 +82,7 @@ description: An off-grid text based communications network in Tennessee based on
   <section class="content-section">
     <h2>TennMesh MeshCore Settings</h2>
     <div class="container-narrow">
+      <div class="note"><p><strong>Note:</strong> Start by selecting the <strong>USA/Canada (Recommended)</strong> preset, and then only change the Coding Rate as desired. When the Coding Rate is changed, the preset will then say "Custom" instead of USA/Canada. This is normal.</p></div>
       <div class="info-box">
         <h3>Companion Device Settings</h3>
         <dl>

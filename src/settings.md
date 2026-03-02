@@ -13,6 +13,7 @@ description: Recommended MeshCore settings for TennMesh nodes, repeaters, and co
   </div>
 
   <div class="content-section">
+    <div class="note"><p><strong>Note:</strong> Start by selecting the <strong>USA/Canada (Recommended)</strong> preset, and then only change the Coding Rate as desired. When the Coding Rate is changed, the preset will then say "Custom" instead of USA/Canada. This is normal.</p></div>
     <div class="info-box mb-8">
       <h3>Companion Settings</h3>
       <dl>

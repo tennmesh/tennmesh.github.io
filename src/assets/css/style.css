@@ -341,6 +341,29 @@ footer a:hover {
 }
 
 /* ============================================
+   Note / Callout
+   ============================================ */
+
+.note {
+  background: rgba(245, 166, 35, 0.08);
+  border: 1px solid rgba(245, 166, 35, 0.3);
+  border-left: 3px solid var(--color-warning);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-6);
+  margin: 0 0 var(--space-6);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.note strong {
+  color: var(--color-warning);
+}
+
+.note p {
+  margin: 0;
+}
+
+/* ============================================
    Info Box - Network Settings
    ============================================ */
 
