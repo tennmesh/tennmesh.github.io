@@ -32,5 +32,43 @@
   </main>
 
   {% include "footer.njk" %}
+
+  <script>
+    document.querySelectorAll('pre').forEach(function(pre) {
+      var code = pre.querySelector('code') || pre;
+      var lines = code.textContent.trim().split('\n').filter(function(l) { return l.trim(); });
+
+      var block = document.createElement('div');
+      block.className = 'code-block';
+
+      lines.forEach(function(line) {
+        var lineEl = document.createElement('div');
+        lineEl.className = 'code-line';
+
+        var codeEl = document.createElement('code');
+        codeEl.textContent = line;
+
+        var btn = document.createElement('button');
+        btn.className = 'copy-line-btn';
+        btn.textContent = 'Copy';
+        btn.addEventListener('click', function() {
+          navigator.clipboard.writeText(line).then(function() {
+            btn.textContent = 'Copied!';
+            btn.classList.add('copied');
+            setTimeout(function() {
+              btn.textContent = 'Copy';
+              btn.classList.remove('copied');
+            }, 2000);
+          });
+        });
+
+        lineEl.appendChild(codeEl);
+        lineEl.appendChild(btn);
+        block.appendChild(lineEl);
+      });
+
+      pre.parentNode.replaceChild(block, pre);
+    });
+  </script>
 </body>
 </html>

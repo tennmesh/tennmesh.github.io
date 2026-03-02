@@ -610,6 +610,95 @@ footer a:hover {
 }
 
 /* ============================================
+   Code Block with Per-Line Copy Buttons
+   ============================================ */
+
+.code-block {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) 0;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  overflow-x: auto;
+}
+
+.code-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-1) var(--space-4);
+}
+
+.code-line:hover {
+  background: var(--color-surface-hover);
+}
+
+.code-line code {
+  background: none;
+  padding: 0;
+  flex: 1;
+}
+
+.copy-line-btn {
+  background: none;
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-sm);
+  padding: 0.1em 0.5em;
+  font-size: 0.7rem;
+  font-family: var(--font-primary);
+  color: var(--color-text-dim);
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.copy-line-btn:hover {
+  color: var(--color-text);
+  border-color: var(--color-text-muted);
+}
+
+.copy-line-btn.copied {
+  color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+/* ============================================
+   Table
+   ============================================ */
+
+.settings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  margin: var(--space-6) 0;
+}
+
+.settings-table th,
+.settings-table td {
+  border: 1px solid var(--color-border);
+  padding: var(--space-2) var(--space-4);
+  text-align: left;
+}
+
+.settings-table th {
+  background: var(--color-surface);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.settings-table tr:nth-child(even) td {
+  background: var(--color-surface);
+}
+
+/* ============================================
    Responsive Utilities
    ============================================ */
 

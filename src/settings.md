@@ -82,4 +82,88 @@ description: Recommended MeshCore settings for TennMesh nodes, repeaters, and co
       </dl>
     </div>
   </div>
+
+  <div class="content-section">
+    <h2>Repeater TX Delay Settings</h2>
+    <p>
+      This section is for the repeater transmission delay settings along with some additional recommended settings. The goal of these settings is simple: <strong>repeaters that hear more neighbors should wait longer before transmitting.</strong> This lets nearby repeaters serve their local areas first, reduces on-air collisions, and keeps packets flowing.
+    </p>
+    <p>
+      If your repeater was just deployed, wait a few days for your repeater to collect data on how many neighbors it has, then use the specfic settings based on your neighbor count below.
+    </p>
+
+    <table class="settings-table">
+      <thead>
+        <tr>
+          <th>Neighbors</th>
+          <th>txdelay</th>
+          <th>direct.txdelay</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>0–1</td><td>0.3</td><td>0.1</td></tr>
+        <tr><td>2–4</td><td>0.5</td><td>0.3</td></tr>
+        <tr><td>5–9</td><td>1.0</td><td>0.5</td></tr>
+        <tr><td>10–14</td><td>1.5</td><td>1.0</td></tr>
+        <tr><td>15+</td><td>2.0</td><td>2.0</td></tr>
+      </tbody>
+    </table>
+
+    <p>
+      Each section below will have a command with a copy button to the right. These are to be copied and pasted into the <strong>Command Line</strong> tab in the MeshCore app after remotely logging into as an admin on the repeater you're managing.
+    </p>
+
+    <div class="info-box mb-8">
+      <h3>Common Settings (all repeaters)</h3>
+      <p style="margin-top:0;margin-bottom:var(--space-4);font-size:0.9rem;color:var(--color-text-muted);">These settings are recommended for all repeaters, regardless of neighbor count.</p>
+      <pre><code>set agc.reset.interval 4
+set multi.acks 1
+set rxdelay 3</code></pre>
+    </div>
+
+    <div class="info-box mb-8">
+      <h3>Neighbor Count: 0–1</h3>
+      <pre><code>set txdelay 0.3
+set direct.txdelay 0.1
+set agc.reset.interval 4
+set multi.acks 1
+set rxdelay 3</code></pre>
+    </div>
+
+    <div class="info-box mb-8">
+      <h3>Neighbor Count: 2–4</h3>
+      <pre><code>set txdelay 0.5
+set direct.txdelay 0.3
+set agc.reset.interval 4
+set multi.acks 1
+set rxdelay 3</code></pre>
+    </div>
+
+    <div class="info-box mb-8">
+      <h3>Neighbor Count: 5–9</h3>
+      <pre><code>set txdelay 1
+set direct.txdelay 0.5
+set agc.reset.interval 4
+set multi.acks 1
+set rxdelay 3</code></pre>
+    </div>
+
+    <div class="info-box mb-8">
+      <h3>Neighbor Count: 10–14</h3>
+      <pre><code>set txdelay 1.5
+set direct.txdelay 1
+set agc.reset.interval 4
+set multi.acks 1
+set rxdelay 3</code></pre>
+    </div>
+
+    <div class="info-box">
+      <h3>Neighbor Count: 15+</h3>
+      <pre><code>set txdelay 2
+set direct.txdelay 2
+set agc.reset.interval 4
+set multi.acks 1
+set rxdelay 3</code></pre>
+    </div>
+  </div>
 </div>
