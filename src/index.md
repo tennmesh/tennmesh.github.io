@@ -80,6 +80,20 @@ description: An off-grid text based communications network in Tennessee based on
   </section>
 
   <section class="content-section">
+    <h2>Local Mesh Partners</h2>
+    <div class="container-narrow">
+      <p class="text-center">
+        TennMesh wouldn't be possible without the support of local groups, businesses, and individuals who help deploy repeaters, donate equipment, or allow us to install infrastructure on their property. We're grateful for every partner who helps expand the network.
+      </p>
+      <div class="partner-logos">
+        <a class="partner-logo-card" href="https://www.423tech.com/" target="_blank" rel="noopener">
+          <img src="/assets/images/423tech-Logo.png" alt="Tennessee Technology Solutions">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
     <h2>TennMesh MeshCore Settings</h2>
     <div class="container-narrow">
       <div class="note"><p><strong>Note:</strong> Start by selecting the <strong>USA/Canada (Recommended)</strong> preset, and then only change the Coding Rate as desired. When the Coding Rate is changed, the preset will then say "Custom" instead of USA/Canada. This is normal.</p></div>

@@ -722,6 +722,40 @@ footer a:hover {
 }
 
 /* ============================================
+   Partner Logos
+   ============================================ */
+
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+}
+
+.partner-logo-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.partner-logo-card:hover {
+  border-color: var(--color-border-light);
+  box-shadow: 0 0 0 1px var(--color-border-light);
+}
+
+.partner-logo-card img {
+  height: 80px;
+  width: auto;
+  display: block;
+}
+
+/* ============================================
    Responsive Utilities
    ============================================ */
 
