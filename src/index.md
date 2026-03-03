@@ -83,7 +83,7 @@ description: An off-grid text based communications network in Tennessee based on
     <h2>Local Mesh Partners</h2>
     <div class="container-narrow">
       <p class="text-center">
-        TennMesh wouldn't be possible without the support of local groups, businesses, and individuals who help deploy repeaters, donate equipment, or allow us to install infrastructure on their property. We're grateful for every partner who helps expand the network.
+        TennMesh wouldn't be possible without the support of local groups, businesses, and clubs who help deploy repeaters, donate equipment, or allow us to install infrastructure on their property. We're grateful for every partner who helps expand the network.
       </p>
       <div class="partner-logos">
         <a class="partner-logo-card" href="https://www.423tech.com/" target="_blank" rel="noopener">
