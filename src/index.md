@@ -89,6 +89,7 @@ description: An off-grid text based communications network in Tennessee based on
         <a class="partner-logo-card" href="https://www.423tech.com/" target="_blank" rel="noopener">
           <img src="/assets/images/423tech-Logo.png" alt="Tennessee Technology Solutions">
         </a>
+        <img src="/assets/images/Tennesee_Tech_Amateur_Radio_Society.png" alt="Tennessee Tech Amateur Radio Society" style="height: 142px; width: auto; display: block;">
       </div>
     </div>
   </section>
