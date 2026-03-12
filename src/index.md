@@ -85,11 +85,36 @@ description: An off-grid text based communications network in Tennessee based on
       <p class="text-center">
         TennMesh wouldn't be possible without the support of local groups, businesses, and clubs who help deploy repeaters, donate equipment, or allow us to install infrastructure on their property. We're grateful for every partner who helps expand the network.
       </p>
-      <div class="partner-logos">
-        <a class="partner-logo-card" href="https://www.423tech.com/" target="_blank" rel="noopener">
-          <img src="/assets/images/423tech-Logo.png" alt="Tennessee Technology Solutions">
-        </a>
-        <img src="/assets/images/Tennesee_Tech_Amateur_Radio_Society.png" alt="Tennessee Tech Amateur Radio Society" style="height: 142px; width: auto; display: block;">
+      <div class="partner-marquee-wrap">
+        <div class="partner-marquee">
+          <div class="partner-marquee-track">
+            <a class="partner-logo-card" href="https://www.423tech.com/" target="_blank" rel="noopener" style="background: #fff; border-radius: var(--radius-lg);">
+              <img src="/assets/images/423tech-Logo.png" alt="Tennessee Technology Solutions" style="height: 110px;">
+            </a>
+            <div class="partner-logo-card">
+              <img src="/assets/images/Tennesee_Tech_Amateur_Radio_Society.png" alt="Tennessee Tech Amateur Radio Society">
+            </div>
+            <div class="partner-logo-card">
+              <img src="/assets/images/TARA.png" alt="Tennessee Amateur Radio Association">
+            </div>
+            <div class="partner-logo-card">
+              <img src="/assets/images/mcminnarc_logo.png" alt="McMinn County Amateur Radio Club, Inc.">
+            </div>
+            <!-- Duplicate set for seamless loop -->
+            <a class="partner-logo-card" href="https://www.423tech.com/" target="_blank" rel="noopener" style="background: #fff; border-radius: var(--radius-lg);">
+              <img src="/assets/images/423tech-Logo.png" alt="Tennessee Technology Solutions" style="height: 110px;">
+            </a>
+            <div class="partner-logo-card">
+              <img src="/assets/images/Tennesee_Tech_Amateur_Radio_Society.png" alt="Tennessee Tech Amateur Radio Society">
+            </div>
+            <div class="partner-logo-card">
+              <img src="/assets/images/TARA.png" alt="Tennessee Amateur Radio Association">
+            </div>
+            <div class="partner-logo-card">
+              <img src="/assets/images/mcminnarc_logo.png" alt="McMinn County Amateur Radio Club, Inc.">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

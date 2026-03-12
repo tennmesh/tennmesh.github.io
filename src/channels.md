@@ -85,6 +85,22 @@ description: Recommended hashtag channels for TennMesh on MeshCore, organized by
       <p>The examples above show the recommended format. Use <code>#tn-[countyname]</code> to create or join a channel for your county.</p>
     </div>
 
+    <h3 class="channel-group-label">Radio</h3>
+    <div class="channel-list">
+      <div class="channel-card">
+        <div class="channel-name">#emergency</div>
+        <p>Channel for emcomm traffic for groups like Amateur Radio Emergency Service &amp; Auxiliary Communications Service.</p>
+      </div>
+      <div class="channel-card">
+        <div class="channel-name">#hamradio</div>
+        <p>Channel for ham radio related discussions.</p>
+      </div>
+      <div class="channel-card">
+        <div class="channel-name">#gmrs</div>
+        <p>Channel for GMRS radio related discussions.</p>
+      </div>
+    </div>
+
     <h3 class="channel-group-label">Weather</h3>
     <div class="channel-list">
       <div class="channel-card channel-card--weather">
