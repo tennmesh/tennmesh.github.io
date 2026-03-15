@@ -57,9 +57,9 @@ description: Recommended MeshCore settings for TennMesh nodes, repeaters, and co
       <h3>East TN Repeater Advert Intervals</h3>
       <dl>
         <dt>Zero Hop</dt>
-        <dd>120 Minutes</dd>
+        <dd>0 Minutes</dd>
         <dt>Flood</dt>
-        <dd>12 hours</dd>
+        <dd>48 hours</dd>
       </dl>
     </div>
 
