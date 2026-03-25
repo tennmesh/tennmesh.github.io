@@ -209,6 +209,18 @@ nav a.active {
   background: var(--color-surface-light);
 }
 
+/* Live link */
+nav a.nav-live {
+  color: var(--color-primary);
+  text-shadow: 0 0 8px rgba(249, 77, 0, 0.7);
+}
+
+nav a.nav-live:hover {
+  color: var(--color-primary-hover);
+  background: var(--color-primary-muted);
+  text-shadow: 0 0 12px rgba(249, 77, 0, 0.9);
+}
+
 /* Mobile navigation */
 @media (max-width: 768px) {
   .nav-container {
