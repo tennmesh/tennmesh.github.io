@@ -48,6 +48,27 @@ description: Recommended MeshCore settings for TennMesh nodes, repeaters, and co
   </div>
 
   <div class="content-section">
+    <h2>2-Byte Path Hash</h2>
+    <p>
+      As TennMesh has grown well beyond 256 nodes, we're moving to 2-byte path hashes to eliminate collisions. See the <a href="/blog/2byte-path-hashes/">blog post</a> for full details on why this matters and how the transition works.
+    </p>
+
+    <div class="info-box mb-8">
+      <h3>Repeater (firmware 1.14+ required)</h3>
+      <p style="margin-top:0;margin-bottom:var(--space-4);font-size:0.9rem;color:var(--color-text-muted);">Run this command from the Command Line tab after remotely logging in as admin.</p>
+      <pre><code>set path.hash.mode 1</code></pre>
+    </div>
+
+    <div class="info-box">
+      <h3>Companion Node</h3>
+      <p style="margin-top:0;margin-bottom:var(--space-4);font-size:0.9rem;color:var(--color-text-muted);">From the home screen: Gear icon &rarr; Experimental Settings &rarr; Default Path Hash Size &rarr; <strong>2-Byte (max 32 hops)</strong></p>
+      <div class="note" style="margin-bottom:0">
+        <p><strong>Note:</strong> Only make this change after most repeaters in your area have been updated. Repeaters not yet set to 2-byte will not repeat your traffic.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-section">
     <h2>Advert Interval Settings</h2>
     <p>
       Since we've seen a rapid increase in growth, we're now dialing back the recommended advert settings for East TN where we're starting to see congestion.
