@@ -63,7 +63,7 @@ description: Recommended MeshCore settings for TennMesh nodes, repeaters, and co
       <h3>Companion Node</h3>
       <p style="margin-top:0;margin-bottom:var(--space-4);font-size:0.9rem;color:var(--color-text-muted);">From the home screen: Gear icon &rarr; Experimental Settings &rarr; Default Path Hash Size &rarr; <strong>2-Byte (max 32 hops)</strong></p>
       <div class="note" style="margin-bottom:0">
-        <p><strong>Note:</strong> Only make this change after most repeaters in your area have been updated. Repeaters not yet set to 2-byte will not repeat your traffic.</p>
+        <p><strong>Note:</strong> Only make this change after most repeaters in your area have updated to firmware 1.14+. Repeaters still running older firmware will not repeat your 2-byte traffic.</p>
       </div>
     </div>
   </div>

@@ -53,11 +53,22 @@ date: 2026-03-28
       Making this switch does reduce the maximum hop count from 64 down to 32, but that's still plenty. We've yet to see a hop count higher than the mid-20s on TennMesh, so nothing will break in terms of the reach we're currently seeing.
     </p>
     <p>
-      During this transition period, we're updating repeaters to firmware version 1.14+ and enabling 2-byte mode on them first. Even after the switch, repeaters will continue to pass 1-byte traffic from Companion nodes as usual. Once enough repeaters have been updated, we'll encourage Companion nodes to make the switch too.
+      Any repeater running firmware 1.14+ is multibyte capable and will repeat 1-byte, 2-byte, and 3-byte traffic. This means the transition is straightforward: once your repeater is on 1.14+, it's ready to repeat 2-byte traffic from Companion nodes that have made the switch.
     </p>
     <p>
-      One important note: if a repeater hasn't been updated and set to 2-byte, it will drop 2-byte traffic rather than repeat it, effectively taking itself out of the network once the broader switch happens. That's why we're asking the whole TennMesh community to move together. The more of us that make the switch, the better the network gets for everyone.
+      The only repeaters that can't repeat 2-byte traffic are those still running firmware older than 1.14. That's why updating to 1.14+ is the important first step, and why we're encouraging the whole TennMesh community to get updated. The more of us that do, the better the network gets for everyone.
     </p>
+    <p>
+      So that's how to make the repeaters compatible, but there's another optional step that we recommend taking, and that's setting the repeaters to send adverts using 2-byte path hashes. You can do this by logging into your repeater's remote admin page, selecting the Command Line tab at the bottom, and sending the following command:
+    </p>
+
+<pre><code>set path.hash.mode 1</code></pre>
+
+    <p>
+      The reason for this is to help everyone see which repeaters have been updated. After this command has been sent, whenever the repeater sends an advert, it will be in the 2-byte format. We can then see which repeaters support 2-byte by visiting the static map on the <a href="https://live.tennmesh.com/#/map" target="_blank" rel="noopener">TennMesh Live page</a> and looking for the larger 4-character repeater labels on the map like the ones circled below:
+    </p>
+
+    <img src="/assets/images/2byte-map.png" alt="TennMesh Live static map showing repeaters with 4-character labels indicating 2-byte advert support" class="blog-post-img">
 
     <h2>How to make the switch on your repeater</h2>
     <p>It's a two-step process and takes less than five minutes:</p>
@@ -67,12 +78,12 @@ date: 2026-03-28
       Make sure your repeater is running MeshCore firmware version 1.14 or later. The 2-byte hash mode isn't available on older versions, so this is a required first step. If you're not sure what version you're on, check before proceeding.
     </p>
 
-    <h3><em>Step 2: Enable 2-byte mode</em></h3>
-    <p>Once you're on 1.14+, remote into your repeater, open the Command Line, and send this command:</p>
+    <h3><em>Step 2: Enable 2-byte repeater adverts</em></h3>
+    <p>This step is optional, but very helpful. Once you're on 1.14+, remote into your repeater, open the Command Line, and send this command:</p>
 
 <pre><code>set path.hash.mode 1</code></pre>
 
-    <p>That's it. One command and your repeater is running 2-byte path hashes.</p>
+    <p>That's it. One command and your repeater's adverts are broadcasting in 2-byte format.</p>
 
     <h2>How to make the switch on your Companion node</h2>
 
@@ -82,7 +93,7 @@ date: 2026-03-28
     </p>
 
     <div class="note">
-      <p><strong>Note:</strong> Only set this after most of the repeaters in the area have made the switch. Any repeaters that haven't been set to use 2-byte will <strong>NOT</strong> repeat your traffic.</p>
+      <p><strong>Note:</strong> Only set this after most of the repeaters in your area have updated to firmware 1.14+. Repeaters still running older firmware will <strong>NOT</strong> repeat your 2-byte traffic.</p>
     </div>
 
     <p>Thanks and hope to see y'all on the mesh!</p>
