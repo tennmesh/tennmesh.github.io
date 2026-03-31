@@ -97,7 +97,7 @@ description: Join TennMesh in four easy steps. Get a device, configure settings,
       Go to: <a href="https://flasher.meshcore.co.uk" target="_blank" rel="noopener">https://flasher.meshcore.co.uk</a>
     </p>
     <p>
-      From the device list, select your specific radio model.
+      This page will have 3 different firmware lists but we recommend the "Community Firmware" option for new users. Scroll down to the section that says "Community Firmware" and select your specific radio model from that list.
     </p>
     <p>
       On the next page, choose <strong>Companion Bluetooth</strong> as the firmware type.
