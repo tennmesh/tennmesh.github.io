@@ -1108,6 +1108,33 @@ footer a:hover {
   margin-top: var(--space-12);
 }
 
+.blog-post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-6) 0;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  display: block;
+}
+
+.blog-post-content table th,
+.blog-post-content table td {
+  border: 1px solid var(--color-border);
+  padding: var(--space-2) var(--space-4);
+  text-align: left;
+}
+
+.blog-post-content table th {
+  background: var(--color-surface);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.blog-post-content table tr:nth-child(even) td {
+  background: var(--color-surface);
+}
+
 /* ============================================
    Responsive Utilities
    ============================================ */

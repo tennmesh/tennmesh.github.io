@@ -12,6 +12,7 @@ description: An off-grid text based communications network in Tennessee based on
   <div class="cta-buttons">
     <a href="/connect/" class="btn btn-primary btn-large">Get Connected</a>
     <a href="/info/" class="btn btn-secondary btn-large">Learn More</a>
+    <a href="https://live.tennmesh.com/#/live" class="btn btn-secondary btn-large" target="_blank" rel="noopener">Live Network →</a>
   </div>
 </section>
 
