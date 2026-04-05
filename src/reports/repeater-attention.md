@@ -68,7 +68,7 @@ These repeaters were observed sending only 1-byte path hash adverts and were not
 
 Operators should update to firmware 1.14 or later. [Learn more about why this matters and how to update &rarr;](https://tennmesh.com/blog/2byte-path-hashes/)
 
-> **Note:** Some repeaters in this list may already be on firmware 1.14+ with `path.hash.mode` left at the default of 0. They simply weren't observed forwarding a multi-byte packet during this data window. Updating and setting `path.hash.mode` to `1` or `2` will get you off this list.
+<div class="note"><p><strong>Note:</strong> Some repeaters in this list may already be on firmware 1.14+ with <code>path.hash.mode</code> left at the default of 0. They simply weren't observed forwarding a multi-byte packet during this data window. Updating and setting <code>path.hash.mode</code> to <code>1</code> or <code>2</code> will help get you off this list. We also recommend that users periodically set their companion nodes to use 2-byte or 3-byte and send a message in the #test channel. This will generate multibyte traffic and allow us to see which repeaters are forwarding the traffic, indicating that they're updated and multibyte capable.</p></div>
 
 | Repeater Name | Public Key Prefix |
 |---|---|

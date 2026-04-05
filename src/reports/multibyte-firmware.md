@@ -55,7 +55,7 @@ MeshCore firmware 1.14+ introduces multi-byte path hash support:
 | **Confirmed firmware 1.14+** (either method) | **287** | **33.5%** |
 | Only 1-byte adverts, not seen forwarding multi-byte | 569 | 66.5% |
 
-> **Note:** Repeaters that send only 1-byte adverts and are not observed forwarding multi-byte packets are **not necessarily** on old firmware — they may simply have `path.hash.mode` set to 0 (default) and may not have been observed in a multi-byte packet path during the data window. The forwarding method is a stronger confirmation.
+<div class="note"><p><strong>Note:</strong> Repeaters that send only 1-byte adverts and are not observed forwarding multi-byte packets are <strong>not necessarily</strong> on old firmware — they may simply have <code>path.hash.mode</code> set to 0 (default) and may not have been observed in a multi-byte packet path during the data window. The forwarding method is a stronger confirmation.</p></div>
 
 ---
 
