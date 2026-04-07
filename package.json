@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TennMesh - MeshCore Community Website for Tennessee",
   "scripts": {
-    "start": "eleventy --serve",
+    "start": "eleventy --serve --port 8081",
     "build": "eleventy"
   },
   "keywords": [

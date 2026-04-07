@@ -391,6 +391,16 @@ footer a:hover {
   color: var(--color-text-muted);
 }
 
+.note-success {
+  background: rgba(72, 213, 151, 0.08);
+  border: 1px solid rgba(72, 213, 151, 0.3);
+  border-left: 3px solid var(--color-success);
+}
+
+.note-success strong {
+  color: var(--color-success);
+}
+
 .note p {
   margin: 0;
 }

@@ -2,7 +2,7 @@
 layout: base.njk
 title: MultiByte Firmware Upgrade Status Report
 description: Which repeaters on the TennMesh network have been upgraded to MeshCore firmware 1.14+ with MultiByte path hash support.
-date: 2026-04-05
+date: 2026-04-07
 ---
 
 <div class="container-narrow">
@@ -14,17 +14,17 @@ date: 2026-04-05
     <div class="blog-post-header">
       <span class="howto-tag howto-tag--config">Firmware</span>
       <h1>MultiByte Firmware Upgrade Status Report</h1>
-      <p class="blog-post-meta">April 5, 2026</p>
+      <p class="blog-post-meta">April 7, 2026</p>
       <p class="howto-intro">A snapshot of which repeaters on the network are running MeshCore firmware 1.14+ (MultiByte support) and which are still on 1-byte mode and need upgrading.</p>
     </div>
   </div>
 
   <div class="content-section blog-post-content" style="padding-top: var(--space-6)">
 
-**Generated:** 2026-04-05  
-**Data Window:** 2026-03-31 to 2026-04-05  
-**Total Transmissions Analyzed:** 30,397  
-**Total Unique Repeaters Observed:** 856  
+**Generated:** 2026-04-07  
+**Data Window:** 2026-03-31 to 2026-04-07  
+**Total Transmissions Analyzed:** 41,428  
+**Total Active Repeaters (nodes table):** 618  
 **Observers Contributing Data:** 25
 
 ---
@@ -51,9 +51,61 @@ MeshCore firmware 1.14+ introduces multi-byte path hash support:
 
 | Metric | Count | % of Observed |
 |---|---|---|
-| Total unique repeaters observed | 856 | 100% |
-| **Confirmed firmware 1.14+** (either method) | **287** | **33.5%** |
-| Only 1-byte adverts, not seen forwarding multi-byte | 569 | 66.5% |
+| Total active repeaters (nodes table) | 618 | 100% |
+| **Confirmed firmware 1.14+** (either method) | **334** | **54.0%** |
+| Only 1-byte adverts, not seen forwarding multi-byte | 284 | 46.0% |
+
+<div class="note note-success">
+<p><strong>✅ Progress Since April 5, 2026</strong></p>
+<p>Confirmed 1.14+ repeaters increased from <strong>287 to 334</strong> — an additional <strong>47 repeaters confirmed</strong> this reporting period. Overall coverage improved from 33.5% to 54.0% of active repeaters.</p>
+<p>38 of those newly confirmed were previously sending only 1-byte adverts and are now broadcasting 2- or 3-byte adverts (Method 1). The table below shows the full list.</p>
+
+<details>
+<summary>View 38 repeaters newly confirmed via Method 1 (advert hash size) since April 5</summary>
+
+| Repeater Name | Public Key Prefix | Now Broadcasting |
+|---|---|---|
+| @izzyisaac V4 Observer | cf4d1e87 | 2-byte |
+| 6684 Rptr Mt. Mitchell | 628e2051 | 2-byte |
+| Black Betty | 77e36bc6 | 2-byte |
+| Brushy Valley Repeater | 22204cab | 2-byte |
+| CC | f8f847dc | 2-byte |
+| Delta Flyer - nashme.sh | af574da7 | 2-byte |
+| Ellerbe Repeater | edbcf5a6 | 2-byte |
+| Eno-RPT1 | 23071210 | 2-byte |
+| Fairgarden Repeater-Sev | 2a655736 | 2-byte |
+| fire on the mountain | b419852f | 3-byte |
+| Green Hill Repeater | 4f9a9470 | 2-byte |
+| House Mtn TennMesh.com | 8980cc79 | 2-byte |
+| ikoka test | 823f97de | 2-byte |
+| Jeff Portable | 4d6591ef | 2-byte |
+| Jupiter Repeater | b489bc8d | 3-byte |
+| Kd4stt Home BASE 🏡 | dc239240 | 2-byte |
+| KholdFuzion V4 Repeater | 9b548f5e | 2-byte |
+| kg4ojl Mini Rep7 | eb4df29a | 2-byte |
+| kg4ojl Pocket V2 | 4f64c5f3 | 2-byte |
+| kg4ojl Rep1 | a6e802f4 | 2-byte |
+| kg4ojl V4 Work Fr-Home | 1d699ae0 | 2-byte |
+| KQ4HLZ 1W Hilltop | 2a92473b | 2-byte |
+| KQ4HLZ YAG | a6ccc2a6 | 2-byte |
+| LG | 023efe05 | 2-byte |
+| N4PPG Mobile (2 Byte) | 9283d868 | 2-byte |
+| OhmsRepeater4 | 25947a10 | 2-byte |
+| RAK Tag CM Repeater | 826235a3 | 2-byte |
+| RR_Mobile_Rep_Jim | 549d3d4a | 2-byte |
+| RR_REP_17f0_Greeneville | 17f09f48 | 2-byte |
+| santiago | 96e0f652 | 2-byte |
+| Ted - W4LZA | d858143c | 2-byte |
+| TN | 7473d27c | 2-byte |
+| Unkown | 796163fb | 2-byte |
+| WIL_T1 | 53f812bc | 2-byte |
+| WIl_Tdeck | 8969c86e | 2-byte |
+| ZZBIRD  KM4HDM 🦅 | 5b06111a | 2-byte |
+| 😵‍💫 KQ4HLZ  1AB | 7398d66f | 2-byte |
+| 😵‍💫KQ4HLZ 3AB | fecf043a | 2-byte |
+
+</details>
+</div>
 
 <div class="note"><p><strong>Note:</strong> Repeaters that send only 1-byte adverts and are not observed forwarding multi-byte packets are <strong>not necessarily</strong> on old firmware — they may simply have <code>path.hash.mode</code> set to 0 (default) and may not have been observed in a multi-byte packet path during the data window. The forwarding method is a stronger confirmation.</p></div>
 
@@ -67,10 +119,10 @@ This method identifies repeater firmware level by examining what path hash size 
 
 | Advert Mode | Repeater Count | % of Observed |
 |---|---|---|
-| Only 1-byte adverts (repeaters only) | 443 | 51.8% |
-| Sending 2-byte adverts | 170 | 19.9% |
-| Sending 3-byte adverts | 14 | 1.6% |
-| **Confirmed 1.14+ via adverts** | **178** (unique) | **20.8%** |
+| Only 1-byte adverts (repeaters only) | 454 | 73.5% |
+| Sending 2-byte adverts | 198 | 32.0% |
+| Sending 3-byte adverts | 17 | 2.8% |
+| **Confirmed 1.14+ via adverts** | **215** (unique) | **34.8%** |
 
 > Some repeaters send both 1-byte and 2-byte adverts (e.g., during a transition or reconfiguration). A repeater is counted in the highest mode it has been observed using.
 
@@ -82,15 +134,18 @@ This method identifies repeater firmware level by examining what path hash size 
 |---|---|
 | 7d92baf9dbda | 7d92baf9 |
 | Bilboa Tree | c1f021ec |
-| BlueBucketRPTR | b82fb4eb |
-| CrowtecV4 | 427505e5 |
+| Blue Bucket RPTR | b82fb4eb |
+| df85353ab65d | df85353a |
 | Few SolarXiao | f09aee9c |
+| fire on the mountain | b419852f |
+| Jupiter Repeater | b489bc8d |
 | KG4VCF Windrock | 3a4ec6a3 |
+| KingsMt.RPTR | 427505e5 |
+| KR4HNX RPTR2 | 17a2c5fe |
 | RklsRxbr [rdumesh.org] | d0f7746a |
 | TminusTwo 🚀 | 58650cbb |
 | Todd Knob V4 | b00b1e50 |
-| df85353ab65d | df85353a |
-| ✈️MX745 RDUmesh.org | 4f80eb96 |
+| Xiao_nrf52 Repeater | 4f80eb96 |
 | 🏠MKV Home Room | c1a0fa60 |
 | 🥃🏈Johnny 5 | a9abcc43 |
 | 🥃🏈Strong Bad | 54bff67e |
@@ -729,9 +784,9 @@ This method identifies repeaters confirmed to be running firmware 1.14+ by check
 
 | Metric | Count |
 |---|---|
-| Repeaters confirmed forwarding 2-byte packets | 210 |
-| Repeaters confirmed forwarding 3-byte packets | 64 |
-| **Total confirmed 1.14+ via forwarding** | **214** (unique) |
+| Repeaters confirmed forwarding 2-byte packets | 236 |
+| Repeaters confirmed forwarding 3-byte packets | 70 |
+| **Total confirmed 1.14+ via forwarding** | **247** (unique) |
 
 ---
 
