@@ -13,7 +13,7 @@ description: News, updates, and technical posts from the TennMesh community.
   <div class="blog-grid">
     <a href="/blog/mcminn-acs-set-april-2026/" class="blog-card">
       <span class="howto-tag howto-tag--community">Community</span>
-      <h3>TennMesh Gets Its First Real Test: McMinn County ACS Simulated Emergency Exercise, April 18th</h3>
+      <h3>McMinn County ACS Simulated Emergency Exercise, April 18th</h3>
       <p class="blog-card-meta">April 11, 2026</p>
       <p>McMinn County ACS is conducting a Simulated Emergency Test on April 18th, and for the first time, MeshCore will be part of the exercise. TennMesh operators are invited to participate.</p>
       <span class="howto-read-more">Read Post &rarr;</span>
