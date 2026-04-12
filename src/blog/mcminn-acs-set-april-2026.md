@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "TennMesh Gets Its First Real Test: McMinn County ACS Simulated Emergency Exercise, April 18th"
+title: "McMinn County ACS Simulated Emergency Exercise, April 18th"
 description: McMinn County ACS is conducting a Simulated Emergency Test on April 18th, and for the first time, MeshCore will be part of the exercise. TennMesh operators are invited to participate.
 date: 2026-04-11
 ---
