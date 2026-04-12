@@ -970,6 +970,12 @@ footer a:hover {
   border: 1px solid rgba(167, 139, 250, 0.3);
 }
 
+.howto-tag--community {
+  background: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
 .howto-section-label {
   margin-top: var(--space-8);
   margin-bottom: var(--space-4);
