@@ -731,6 +731,52 @@ footer a:hover {
 }
 
 /* ============================================
+   Code Block with Single Copy Button
+   ============================================ */
+
+.copy-block-wrapper {
+  position: relative;
+}
+
+pre.copy-block {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.copy-block-btn {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  background: none;
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-sm);
+  padding: 0.1em 0.5em;
+  font-size: 0.7rem;
+  font-family: var(--font-primary);
+  color: var(--color-text-dim);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.copy-block-btn:hover {
+  color: var(--color-text);
+  border-color: var(--color-text-muted);
+}
+
+.copy-block-btn.copied {
+  color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+/* ============================================
    Table
    ============================================ */
 

@@ -13,7 +13,7 @@ date: 2026-04-11
   <div class="content-section" style="padding-bottom: 0">
     <div class="blog-post-header">
       <span class="howto-tag howto-tag--community">Community</span>
-      <h1>TennMesh Gets Its First Real Test: McMinn County ACS Simulated Emergency Exercise, April 18th</h1>
+      <h1>McMinn County ACS Simulated Emergency Exercise, April 18th</h1>
       <p class="blog-post-meta">April 11, 2026</p>
       <p class="howto-intro">On Saturday, April 18th, McMinn County Amateur Communications Service (ACS) will conduct a Simulated Emergency Test, and for the first time, MeshCore will be part of the exercise alongside traditional amateur radio modes. TennMesh MeshCore operators in the region are invited to participate.</p>
     </div>
@@ -31,7 +31,7 @@ date: 2026-04-11
 
     <h2>How the exercise works</h2>
     <p>
-      A three-person team will staff the radio room at the McMinn EOC in Athens from 10:00 AM to 12:00 PM (14:00–16:00 UTC). Their job is to interface with EMA's SmartBoard displays, track incoming messages, and manage traffic, all while demonstrating how volunteer communicators can integrate into a real EOC workflow.
+      A three-person team will staff the radio room at the McMinn EOC (Emergency Operations Center) in Athens from 10:00 AM to 12:00 PM (14:00–16:00 UTC). Their job is to interface with EMA's SmartBoard displays, track incoming messages, and manage traffic, all while demonstrating how volunteer communicators can integrate into a real EOC workflow.
     </p>
     <p>
       Outside the EOC, participants throughout the region will operate in a "tabletop" capacity. You won't need to deploy anywhere. Your role is simply to pass a message to the EOC when called upon, a check-in, a status report, or a formatted ICS-213 message. Your day stays largely uninterrupted.
@@ -65,62 +65,71 @@ date: 2026-04-11
     <p>You'll receive a confirmation reply early the first part of the week.</p>
 
     <div class="note">
-      <p><strong>A note for TennMesh operators:</strong> If you're reading this on the TennMesh site, you're almost certainly already capable of participating. A working node and a message to pass is all it takes. This is exactly the kind of real-world validation that demonstrates the value of mesh infrastructure to county EMA offices.. and that reputation is built exercise by exercise.</p>
-      <p style="margin-bottom: 0">Forward this to anyone you know who might want to participate, regardless of their mode or license class.</p>
+      <p><strong>A note for TennMesh operators:</strong> If you're part of the mesh and able to communicate back and forth with others, you're certainly already capable of participating. A working node and a message to pass is all it takes. This is exactly the kind of real-world validation that demonstrates the value of MeshCore infrastructure to county EMA offices.. and that reputation is built exercise by exercise.</p>
     </div>
 
     <h2>Original message from Kenny Witt, KC4OJS</h2>
     <p>Below is the original ICS-213 general message sent by McMinn County ACS coordinator Kenny Witt inviting operators to participate.</p>
 
-    <div class="note">
-      <p><strong>GENERAL MESSAGE (ICS 213)</strong></p>
-      <p>
-        <strong>1. Incident Name:</strong> 20260418SET<br>
-        <strong>2. To:</strong> ACS Members / Area Amateur Volunteers<br>
-        <strong>3. From:</strong> Kenny Witt, KC4OJS, ARO<br>
-        <strong>4. Subject:</strong> Upcoming SET, April 18th, Your Help Needed<br>
-        <strong>5. Date:</strong> 2026-04-03 &nbsp; <strong>6. Time:</strong> 07:49
-      </p>
-      <p>Hey folks,</p>
-      <p>
-        Just a notice to update you on the upcoming SET (Simulated Emergency Training) coming up on April 18th.
-      </p>
-      <p>
-        After meeting with EMA staff yesterday (Cameron) we discussed the SET will involve three operators in the McMinn EOC in Athens. Additionally there will be needed several participants throughout the area. The area participants will be strictly "table-top" meaning you will not actually be deploying or responding, with the exception of a "radio call", handling a message, or a "check-in".. however, each of you will have a message to pass to the EOC during the exercise. Your day will not be interrupted other than that.
-      </p>
-      <p>
-        It will be up to the three staff members in the radio room to respond to whatever information you pass on to them. Sounds like they will be busy!
-      </p>
-      <p>
-        To give you some extra insight to the SET, the team in the EOC is going to be tasked to perform with the understanding that a PACE type situation has occurred throughout the entire region. Meaning all forms of communication have either failed, been overwhelmed, or is currently insufficient to handle the traffic to/from the EOC. Therefore (and this is about the only time we would ever be utilized) the EMA staff will task us to perform as their "E" in the PACE plan.
-      </p>
-      <p>
-        Who can participate in this exercise? That's easy..... anyone with some kind of dependable communications capability.
-      </p>
-      <p>
-        Amateur voice, MESHCORE (non amateur and amateur are welcome), PACKET, APRS, WINLINK, FLDIGI, GMRS are forms of communication that could/should be utilized.
-      </p>
-      <p>
-        Does it have to be McMinn ACS volunteers only? No, we do not have the volunteers to take care of what the county is going to ask us to do. So we need to intentionally reach out to other clubs, organizations, and other counties around us to enlist their help.
-      </p>
-      <p>
-        MeshCore folks..... you are already sending and receiving messages assigned to you by ACS. Congratulations. Nice job!
-      </p>
-      <p>
-        Something you need to do now. Send the following information to <a href="mailto:MCMINNEOC@WINLINK.ORG">MCMINNEOC@WINLINK.ORG</a>:
-      </p>
-      <ul>
-        <li>Your name</li>
-        <li>Organization you belong to</li>
-        <li>Type of radio (mode, amateur, SHARES, MESH, PACKET, GMRS, etc.)</li>
-        <li>Contact information (how we would reach you to ask for help)</li>
-        <li>Physical address (so we can put you on the map in the EOC)</li>
-      </ul>
-      <p>
-        Also, please forward this email on to anyone you feel would like to participate in the "tabletop" SET on the 18th. Ask them to send the information requested above. It will take a couple of days but they will get a reply around the first of the week acknowledging receipt of their information.
-      </p>
-      <p style="margin-bottom: 0">Everyone have a good weekend.<br><strong>Kenny Witt, McMinn County ACS Coordinator</strong></p>
-    </div>
+<pre class="copy-block">GENERAL MESSAGE (ICS 213)
+
+
+Incident Name: 20260418SET
+To (Name and Position): ACS MEMBERS / AREA AMATEUR VOLUNTEERS
+From (Name and Position): Kenny Witt, KC4OJS ARO
+Subject: UPCOMING SET, APRIL 18TH, YOUR HELP NEEDED
+Date: 2026-04-03
+Time: 07:49
+Message:
+
+Hey folks,
+
+Just a notice to update you on the upcoming SET (Simulated Emergency Training) coming up on APRIL 18th.
+
+After meeting with EMA staff yesterday (Cameron) we discussed the SET will involve three operators in the Mcminn EOC in Athens.  Additionally there will be needed several participants throughout the area.  The area participants will be strictly "table-top" meaning you will not actually be deploying or responding, with the exception of a "radio call", handling a message, or a "check-in", however, each of you will have a message to pass to the EOC during the exercise.  Your day will not be interrupted other than that.
+
+It will be up to the three staff members in the radio room to respond to whatever information you pass on to them.
+
+Sounds like they will be busy!
+
+To give you some extra insight to the SET, the team in the EOC is going to be tasked to perform with the understanding that a PACE type situation has occurred throughout the entire region.  Meaning all forms of communication have either failed, been overwhelmed, or is currently insufficient to handle the traffic to / from the EOC.  Therefore (and this is about the only time we would ever be utilized) the EMA staff will task us to perform as their "E" in the PACE plan
+
+Who can participate in this exercise?  That's easy.....anyone with some kind of dependable communications capability.
+
+Amateur voice, MESHCORE (non amateur and amateur are welcome), PACKET, APRS, WINLINK, FLDIGI, GMRS are forms of communication that could / should be utilized.
+
+Does it have to be Mcminn ACS volunteers only?  No, we do not have the volunteers to take care of what the county is going to ask us to do.  So we need to intentionally reach out to other clubs, organizations, and other counties around us to enlist their help.
+
+Jodie in Meigs...this means your folks.
+
+Steve in Bradley....you guys too.
+
+Caleb....you already know this will involve Monroe ARES.
+
+MeshCore folks.....you are already sending and receiving messages assigned to you by ACS.  Congratulations.  Nice job!
+
+
+For everyone:
+
+Something you need to do now.  Send the following information to MCMINNEOC@WINLINK.ORG
+
+Your name:
+
+Organization you belong too:
+
+Type of radio (mode, amateur, SHARES, MESH, PACKET, GMRS, etc):
+
+Contact information (how we would reach you to ask for help):
+
+Physical address (so we can put you on the map in the EOC)):
+
+
+Also, please forward this email on to anyone you feel would like to participate in the "tabletop" SET on the 18th.  Ask them to send the information requested above.  It will take a couple of days but they will get a reply around the first of the week acknowledging receipt of their information.
+
+Everyone have a good weekend.
+
+Kenny Witt, Mcminn County ACS coordinator.
+</pre>
 
   </div>
 </div>

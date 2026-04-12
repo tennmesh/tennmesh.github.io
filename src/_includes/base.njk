@@ -34,7 +34,7 @@
   {% include "footer.njk" %}
 
   <script>
-    document.querySelectorAll('pre').forEach(function(pre) {
+    document.querySelectorAll('pre:not(.no-copy):not(.copy-block)').forEach(function(pre) {
       var code = pre.querySelector('code') || pre;
       var lines = code.textContent.trim().split('\n').filter(function(l) { return l.trim(); });
 
@@ -68,6 +68,29 @@
       });
 
       pre.parentNode.replaceChild(block, pre);
+    });
+
+    document.querySelectorAll('pre.copy-block').forEach(function(pre) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'copy-block-wrapper';
+
+      var btn = document.createElement('button');
+      btn.className = 'copy-block-btn';
+      btn.textContent = 'Copy';
+      btn.addEventListener('click', function() {
+        navigator.clipboard.writeText(pre.textContent).then(function() {
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(function() {
+            btn.textContent = 'Copy';
+            btn.classList.remove('copied');
+          }, 2000);
+        });
+      });
+
+      pre.parentNode.insertBefore(wrapper, pre);
+      wrapper.appendChild(pre);
+      wrapper.appendChild(btn);
     });
   </script>
 </body>
