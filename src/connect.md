@@ -81,6 +81,10 @@ description: Join TennMesh in four easy steps. Get a device, configure settings,
         recommendations, DIY options, and solar-powered repeater builds.
       </p>
     </div>
+
+    <div class="note">
+      <p style="margin: 0;"><strong>Important:</strong> Only place repeaters on your own property or on property where you have explicit permission from the owner to do so.</p>
+    </div>
   </div>
 
 
