@@ -55,6 +55,9 @@ date: 2026-04-11
 
     <h2>How to register</h2>
     <p>Send the following information to <a href="mailto:MCMINNEOC@WINLINK.ORG">MCMINNEOC@WINLINK.ORG</a>:</p>
+    <div class="note">
+      <p><strong>Important:</strong> Be sure to include <code>//WL2K</code> somewhere in the subject line to get past the email filters.</p>
+    </div>
     <ul>
       <li>Your name</li>
       <li>Organization you belong to (TennMesh is fine if you're not part of another organized group)</li>
