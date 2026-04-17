@@ -134,5 +134,37 @@ Everyone have a good weekend.
 Kenny Witt, Mcminn County ACS coordinator.
 </pre>
 
+    <h2>Follow-up message from Kenny Witt, KC4OJS — April 17th</h2>
+    <p>The day before the exercise, Kenny sent a follow-up with details on how to participate Saturday morning.</p>
+
+<pre class="copy-block">Tomorrow (Saturday), three McMinn ACS radio operators will conduct the exercise mentioned last Monday night at the MCARC club meeting.
+
+They will operate from the McMinn EOC.
+
+They do not know what the exercise will be about, but it will not be about Watts Bar.
+
+However you monitor the MCARC repeaters, frequencies, MESH, digital, etc., you might want to do so in the morning, starting just before 10:00 AM Eastern.
+
+The operators need to hear from you.
+
+Use whatever mode or method you choose, but making contact with the EOC is your first goal.
+
+After you make contact, you might be asked to "simulate" going somewhere or doing something, but your portion of the exercise will be "tabletop" — meaning you will not actually have to do anything that will interrupt your day.
+
+There may be some out-of-county communications required. If so, below are the webpages for some of the TNARES (ARES) organizations nearby:
+
+  Monroe County:  https://tnares.com/find-your-county/east/district-7/monroe-county
+  Bradley County: https://tnares.com/find-your-county/east/district-7/bradley-county
+  Meigs County:   https://tnares.com/find-your-county/east/district-7/meigs-county
+
+A while back, a list of all current email addresses for ACS members was made available to these operators, but they may not be able to utilize regular email, depending on the scope of the exercise.
+
+The exercise will end at 12:00 PM.
+
+Everyone, take care, enjoy the exercise.
+
+Kenny Witt, McMinn ACS Coordinator
+</pre>
+
   </div>
 </div>
