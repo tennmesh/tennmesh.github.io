@@ -163,7 +163,7 @@ description: An off-grid text based communications network in Tennessee based on
       </div>
 
       <div class="text-center mt-8">
-        <a href="https://flasher.meshcore.co.uk" class="btn btn-primary" target="_blank" rel="noopener">Flash Your Device →</a>
+        <a href="http://flasher.meshcore.io/" class="btn btn-primary" target="_blank" rel="noopener">Flash Your Device →</a>
       </div>
     </div>
   </section>

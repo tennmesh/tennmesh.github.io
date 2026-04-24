@@ -34,7 +34,7 @@ description: How to flash MeshCore firmware onto the Seeed Studio SenseCAP Solar
     <div class="note">
       <p>This only works on Chromium-based web browsers, like Google Chrome, Brave, or if you're on a recent version of Windows, you already have one called Microsoft Edge.</p>
     </div>
-    <p>Open your web browser and go to the webflasher webpage at <a href="https://flasher.meshcore.co.uk" target="_blank" rel="noopener noreferrer">flasher.meshcore.co.uk</a>.</p>
+    <p>Open your web browser and go to the webflasher webpage at <a href="http://flasher.meshcore.io/" target="_blank" rel="noopener noreferrer">flasher.meshcore.io</a>.</p>
 
     <h3>Step 2: Find and Select Your Device</h3>
     <p>
@@ -75,7 +75,7 @@ description: How to flash MeshCore firmware onto the Seeed Studio SenseCAP Solar
     </p>
 
     <h3>Step 1: Go to the Flasher Page</h3>
-    <p>Open your web browser and go to the webflasher webpage at <a href="https://flasher.meshcore.co.uk" target="_blank" rel="noopener noreferrer">flasher.meshcore.co.uk</a>.</p>
+    <p>Open your web browser and go to the webflasher webpage at <a href="http://flasher.meshcore.io/" target="_blank" rel="noopener noreferrer">flasher.meshcore.io</a>.</p>
 
     <h3>Step 2: Find and Select Your Device</h3>
     <p>

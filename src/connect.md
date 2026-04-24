@@ -98,7 +98,7 @@ description: Join TennMesh in four easy steps. Get a device, configure settings,
 
     <h3 class="mt-8">Open the Web Flasher</h3>
     <p>
-      Go to: <a href="https://flasher.meshcore.co.uk" target="_blank" rel="noopener">https://flasher.meshcore.co.uk</a>
+      Go to: <a href="http://flasher.meshcore.io/" target="_blank" rel="noopener">http://flasher.meshcore.io/</a>
     </p>
     <p>
       This page will have 3 different firmware lists but we recommend the "Community Firmware" option for new users. Scroll down to the section that says "Community Firmware" and select your specific radio model from that list.
@@ -204,7 +204,7 @@ description: Join TennMesh in four easy steps. Get a device, configure settings,
       Open a Chromium-based browser such as Chrome or Edge.
     </p>
     <p>
-      Go to: <a href="https://flasher.meshcore.co.uk" target="_blank" rel="noopener">https://flasher.meshcore.co.uk</a>
+      Go to: <a href="http://flasher.meshcore.io/" target="_blank" rel="noopener">http://flasher.meshcore.io/</a>
     </p>
     <p>
       Select your device model from the list.
