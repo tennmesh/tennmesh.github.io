@@ -80,7 +80,7 @@ description: Recommended MeshCore settings for TennMesh nodes, repeaters, and co
         <dt>Zero Hop</dt>
         <dd>0 Minutes</dd>
         <dt>Flood</dt>
-        <dd>48 hours</dd>
+        <dd>90 hours</dd>
       </dl>
     </div>
 
