@@ -104,6 +104,9 @@ description: An off-grid text based communications network in Tennessee based on
             <a class="partner-logo-card" href="https://www.sixtysixforty.com/" target="_blank" rel="noopener">
               <img src="/assets/images/sixty-six-forty-logo.png" alt="Sixty-Six Forty Retreats">
             </a>
+            <a class="partner-logo-card" href="https://ucme.sh/" target="_blank" rel="noopener">
+              <img src="/assets/images/ucmesh-logo.svg" alt="UCMesh">
+            </a>
             <!-- Duplicate set for seamless loop -->
             <a class="partner-logo-card" href="https://www.423tech.com/" target="_blank" rel="noopener" style="background: #fff; border-radius: var(--radius-lg);">
               <img src="/assets/images/423tech-Logo.png" alt="Tennessee Technology Solutions" style="height: 110px;">
@@ -119,6 +122,9 @@ description: An off-grid text based communications network in Tennessee based on
             </div>
             <a class="partner-logo-card" href="https://www.sixtysixforty.com/" target="_blank" rel="noopener">
               <img src="/assets/images/sixty-six-forty-logo.png" alt="Sixty-Six Forty Retreats">
+            </a>
+            <a class="partner-logo-card" href="https://ucme.sh/" target="_blank" rel="noopener">
+              <img src="/assets/images/ucmesh-logo.svg" alt="UCMesh">
             </a>
           </div>
         </div>
