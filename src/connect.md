@@ -298,7 +298,7 @@ description: Join TennMesh in four easy steps. Get a device, configure settings,
     </p>
     <div style="display: flex; justify-content: center; margin-top: var(--space-8);">
       <div class="cta-buttons">
-        <a href="https://discord.gg/XGhftQw9Mt" class="btn btn-primary btn-large" target="_blank" rel="noopener">Join Our Discord</a>
+        <a href="{{ site.discord }}" class="btn btn-primary btn-large" target="_blank" rel="noopener">Join Our Discord</a>
         <a href="https://t.me/+ny3SblBJ8rVjMWIx" class="btn btn-secondary btn-large" target="_blank" rel="noopener">Join Our Telegram</a>
         <a href="https://www.facebook.com/groups/877766108102231" class="btn btn-secondary btn-large" target="_blank" rel="noopener">Join Our Facebook Group</a>
       </div>
