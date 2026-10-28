@@ -48,6 +48,12 @@ description: Step-by-step how-to guides for setting up, configuring, and getting
         <p>How-to guides specific to the Seeed Studio SenseCAP Solar Node P1-Pro.</p>
         <span class="howto-read-more">View How-Tos &rarr;</span>
       </a>
+      <a href="/howtos/wismesh-pocket-v3/" class="howto-card">
+        <span class="howto-tag howto-tag--device">Device</span>
+        <h3>WisMesh Pocket V3</h3>
+        <p>How-to guides specific to the RAKwireless WisMesh Pocket V3.</p>
+        <span class="howto-read-more">View How-Tos &rarr;</span>
+      </a>
     </div>
   </div>
 </div>
