@@ -18,6 +18,16 @@ description: How to flash MeshCore companion firmware onto the RAKwireless WisMe
   </div>
 
   <div class="content-section" style="padding-top: var(--space-6)">
+    <h2>Why This Guide?</h2>
+    <p>
+      The WisMesh Pocket V3 uses a different display driver than earlier versions, so firmware that supports it isn't available on the official <a href="https://flasher.meshcore.io/" target="_blank" rel="noopener noreferrer">MeshCore flasher</a> yet. Support is expected there soon.
+    </p>
+    <p>
+      If you don't want to wait, follow the instructions below. They use a firmware file that includes the new display driver for the V3.
+    </p>
+  </div>
+
+  <div class="content-section">
     <h2>Step-by-Step Instructions</h2>
     <ol>
       <li><strong>Connect your device</strong> to your computer using a USB data cable.</li>
